@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button type="submit" onclick="clicked(event)">Cancel</button>
+    
+    <script>
+        function clicked(e)
+        {
+            if(!confirm('Are you sure?')) {
+                e.preventDefault();
+            }
+        }
+    </script>
+    </body>
+</html>
